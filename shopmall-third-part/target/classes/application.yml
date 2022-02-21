@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5t5kqgJoRwKw3mfa1c3F
+      secret-key: kncaRnmL5GkUtF1GhIRpWuyalQK0KG
+      oss:
+        endpoint: oss-cn-hangzhou.aliyuncs.com
+        bucket: shopmall-jklove
+      sms:
+        host: https://jumsendsms.market.alicloudapi.com
+        path: /sms/send-upgrade
+        templateId: M72CB42894
+        appcode: 0488012e9c8e4f498513695fca3cb4dd
+
+  application:
+    name: shopmall-third-part
+
+server:
+  port: 30010

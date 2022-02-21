@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "spring.cloud.alicloud.sms",
+      "type": "com.wjk.shopmall.thirdpart.component.SmsComponent",
+      "sourceType": "com.wjk.shopmall.thirdpart.component.SmsComponent"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.cloud.alicloud.sms.appcode",
+      "type": "java.lang.String",
+      "sourceType": "com.wjk.shopmall.thirdpart.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.sms.host",
+      "type": "java.lang.String",
+      "sourceType": "com.wjk.shopmall.thirdpart.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.sms.path",
+      "type": "java.lang.String",
+      "sourceType": "com.wjk.shopmall.thirdpart.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.sms.template-id",
+      "type": "java.lang.String",
+      "sourceType": "com.wjk.shopmall.thirdpart.component.SmsComponent"
+    }
+  ],
+  "hints": []
+}
